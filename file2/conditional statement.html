@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function check(){
+            var a=document.getElementByID("num1").value;
+        }
+        if(a>=27){
+            document.write("contrats!you are selected");
+        }
+        else
+        {
+            document.write("sorry you not selected");
+        }
+    </script>
+    <form>
+        <label for="">Age</label>
+        <input type="text" placeholder="Enter age" id="num1"><br><br>
+        <button onclick="check()">check status</button>
+    </form> 
+</body>
+</html>
